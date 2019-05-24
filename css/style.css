@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "arial-rounded";
+    src: url(../fonts/arial_rounded.TTF) format("truetype");
+}
+
+header div{
+	text-align: center;
+}
+
+.cards{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card{
+	width: 19em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-title{
+	font-family: "arial-rounded";
+}
+
+.information > div, .identification{
+	display: flex;
+	justify-content: space-between;
+}
+
+.information{
+	font-size: 0.8em;
+}
+
+.identification{
+	margin-bottom: 1em;
+	font-family: "arial-rounded";
+}
+
+.name{
+	flex-basis: 50%;
+	font-family: arial;
+}
+
+.value{
+	flex-basis: 50%;
+	text-align: right;
+	color: #4e8125;
+	font-family: "arial-rounded";
+}
